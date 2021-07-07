@@ -6,12 +6,12 @@
 
 /* Adding color to second section */
 #two {
-    background-color: #339776;
+    background-color: #445C64;
 }
 
 /* Adding color to third section */
 #three {
-    background-color: #8f5b6c;
+    background-color: #765C64;
 }
 
 
@@ -60,4 +60,20 @@
 
 #welcomeText a{
     color: #f3f9a7;
+}
+
+#iAmText a,#ivanText a{
+    color: rgb(228, 201, 253);
+}
+
+h1{
+    color: #f3f9a7; 
+}
+
+h5{
+    color: #fff600;
+}
+
+p{
+   color: rgb(197, 136, 255);
 }
