@@ -67,7 +67,7 @@
 }
 
 h1{
-    color: #f3f9a7; 
+   color: #fff600; 
 }
 
 h5{
@@ -76,4 +76,27 @@ h5{
 
 p{
    color: rgb(197, 136, 255);
+}
+
+#carousel{
+    width: 60%;
+    margin-left: 20%;
+}
+
+#home,#contact{
+    margin-bottom: 50%;
+    margin-left: 5%;
+}
+#about{
+    position: absolute;
+    width: 15%;
+    left: 105%;
+    top: 21%;
+}
+
+#textAboutMe{
+    width: 39%;
+    position: absolute;
+    left: 108%;
+    top: 27%;
 }

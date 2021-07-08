@@ -13,9 +13,10 @@ window.onload = function () {
     ivanText.addEventListener('mouseout', ivanOff)
     
     let menuScroll = document.getElementById('body')    
-    menuScroll.onscroll = scrollMenu()
+    menuScroll.onscroll = scrollMenu(event)
     
 }
+
 
 
 // ---------- funciones -----
@@ -59,9 +60,10 @@ const ivanOff = function () {
     this.style.color = "rgb(228, 201, 253)"
 }
 
-const scrollMenu = function () {
-    console.log("########")
-    if (window.scrollY > 50){
+const scrollMenu = function (event) {
+    console.log(event)
+    
+    if (window.scrollY > 10){
     home = "Home"
     document.getElementById('welcomeText').innerHTML = home
 
