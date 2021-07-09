@@ -40,24 +40,32 @@ body{
 
 .navbar{
     position: fixed;
-    width: 30%;
     left: 1%;
-    top: 40%;
-}
-.inicioText{
-    display: flex;
+    top: 27%;
+    z-index: 2;
+    display: grid;
     justify-content: start;
     font-family: 'Special Elite', cursive;
     font-family: 'Zilla Slab Highlight', cursive;
-    font-size: 70px;
-    left: 10%;
-
+    font-size: 60px;
 }
-#welcomeText a{
+.shrink{
+    position: fixed;
+    left: 1%;
+    top: 40%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;  
+}
+
+#welcomeText{
     color: #f3f9a7;
 }
 
-#iAmText a,#ivanText a{
+#iAmText,#ivanText{
     color: rgb(228, 201, 253);
 }
 h1{
@@ -70,6 +78,9 @@ h5{
     color: #fff600;
 }
 p{
+    left: 43%;
+    position: absolute;
+    width: 139%;
     color: rgb(197, 136, 255);
  }
 
@@ -87,15 +98,12 @@ p{
     left: 68%;
 }
 
-#menu{
-    width: 10%;
-}
 .carousel{
     display: flex;
     width: 82%;
     height: 50%;
     left: 16%;
-    top: 14%;
+    top: 8%;
 }
 #carouselExampleCaptions{
     display: flex;
@@ -111,6 +119,14 @@ footer{
     height: 10%;
     color: #fff600;
 }
+#footer2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 3%;
+    height: 100%;
+    margin-left: 30.3%;
+}
 #parrafo{
     position: absolute;
     width: 11%;
@@ -124,6 +140,76 @@ footer{
     top: 35%;
     margin: 0%;
     padding: 0%;
-    left: 35%;
+    left: 40%;
     font-size: 10px;
 }
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin-left: 20%;
+    margin-top: 20%;
+}
+
+#exampleModal{
+    position: initial;
+    z-index: 4;
+}
+
+a{
+    color: rgba(255, 0, 0, 0);
+}
+a:hover{
+   color: rgba(102, 51, 153, 0); 
+}
+.icons{
+    
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3%;
+    margin-right: 5%;
+    color: #fff600;
+}
+#icons2{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2%;
+    margin-right: 7%;
+    color: #fff600;
+}
+
+#icons3{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-right: auto;
+    color: #fff600;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+.btn-primary {
+    color: #fff751;
+    background-color: #765c64;
+    border-color: #765c64;
+}
+
+.btn-primary:hover{
+    border: #fff700ab;
+    background-color: #fff700ab;
+}
+#copyright {
+    left: -38%;
+    bottom: 0%;
+    margin-left: 39%;
+    width: 100%;
+}
+#copyright2{
+    left: 1%;
+    bottom: 10%;
+}
+
+input,textarea{
+    margin: 10px;
+}
+
