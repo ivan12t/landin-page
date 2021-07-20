@@ -78,7 +78,7 @@ h5{
     color: #fff600;
 }
 p{
-    left: 43%;
+    left: -17%;
     position: absolute;
     width: 139%;
     color: rgb(197, 136, 255);
@@ -91,7 +91,7 @@ p{
 }
 #about{
     position: absolute;
-    left: 35%;
+    left: 34.4%;
 }
 #contact{
     position: absolute;
@@ -131,7 +131,7 @@ footer{
     position: absolute;
     width: 11%;
     top: 20%;
-    left: 36%;
+    left: 42.3%;
 }
 #card{
     position: absolute;
@@ -212,4 +212,6 @@ a:hover{
 input,textarea{
     margin: 10px;
 }
-
+.card-text{
+    left: 17%;
+}
